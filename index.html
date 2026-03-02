@@ -105,10 +105,14 @@
             if (isNaN(myr)) { jpyInput.value = ''; return; }
             jpyInput.value = (myr / myrRate).toFixed(0);
         }
+    if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js');
+}
     </script>
 </body>
 </html>
 <link rel="manifest" href="manifest.json">
+
 
 
 
