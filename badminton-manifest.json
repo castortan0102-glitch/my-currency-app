@@ -1,0 +1,17 @@
+{
+  "name": "Castor's 羽球 Pro",
+  "short_name": "羽球计分",
+  "start_url": "/my-currency-app/badminton.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2646/2646434.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
